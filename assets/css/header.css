@@ -6,6 +6,7 @@ header{
     background-color: black;
     border-color: black;
     height: 80px;
+    width: 100vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -22,14 +23,15 @@ header{
     border-color: transparent;
     display: flex;
     justify-content: space-between;
-    width: 62%;
+    width: 80%;
+    max-width: 1184px;
     align-items: center;
 }
 
 .lista-menu{
     display: flex;
     justify-content: space-around;
-    width: 40%;
+    width: 497px;
     align-items: center;
     padding: 30px;
 }
@@ -44,5 +46,3 @@ header{
 .lista-menu li a:hover{
     color: rgb(30,215,96);
 }
-
-
